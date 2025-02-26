@@ -1,12 +1,5 @@
-let a=20;
-let b=40;
+const btnElement= document.getElementById('click-btn')
 
-// swap the number 
-let temp=a;
-a=b
-b=temp;
-console.log(a,b)
-
-// modern way of swap two numbers 
-[a,b]=[b,a]
-console.log(a,b)
+btnElement.addEventListener('click',e=>{
+	console.log('Event triged')
+})
